@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *FirstStatusLabel;
+@property (weak, nonatomic) IBOutlet UILabel *StatusLabel;
+
+@property (weak, nonatomic) IBOutlet UISwitch *switch1;
+- (IBAction)switch_value_changed:(id)sender;
 
 @end
 
